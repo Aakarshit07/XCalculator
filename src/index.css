@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 370px;
+  border: 2px solid rosybrown
+}
+
+.input-text{
+  margin: 10px 8px;
+}
+
+.btn-container{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+ 
+.btn{
+  width: 60px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.result{
+  text-align: center;
+  columns: #666;
+}
