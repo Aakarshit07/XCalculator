@@ -23,7 +23,7 @@ function App() {
       setResult("Error");
     }
     else if(isNaN(calculateRes)) {
-      setResult("NAN");
+      setResult("NaN");
     } 
     else if(calculateRes == Infinity) {
       setResult(calculateRes);
